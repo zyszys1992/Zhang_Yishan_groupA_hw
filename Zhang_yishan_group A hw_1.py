@@ -475,5 +475,8 @@ for line in file:
         print(word1+" and "+word2)
 
 
-  
-
+#citation 
+#yishan zhang did question1,2,3,4,7,9,12
+#I put some annatation for each line 
+#change something in each code from group members
+#question 5,6,8,10,11,13,14 code are changed from group members
