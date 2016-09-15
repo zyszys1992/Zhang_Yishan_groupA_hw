@@ -477,6 +477,12 @@ for line in file:
 
 #citation 
 #yishan zhang did question1,2,3,4,7,9,12
-#I put some annatation for each line 
+#I put some annotation for each line 
+#I did try to understand other codes to describe and annotate them
+#group members tries their best to finish their pars where everyone was given 
+#3 questions to solve and if anyone could understand other questions, they would 
+#did more than 3. But if they cannot, they get code from memebers to make their 
+#own correct and list the annotation
 #change something in each code from group members
 #question 5,6,8,10,11,13,14 code are changed from group members
+#5,6 from vivi, 8 from Youjin, 10 from Ke, 11,13,14 from Kristen
