@@ -245,7 +245,9 @@ calculation(0.9,100)
 
 
 
-
+#citation
+#I did question 1, 2, 4, 5, 7, 8. 
+#3 from Kristen, 6 from Vivi 
 
 
 
