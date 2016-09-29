@@ -233,6 +233,7 @@ words ={"red","black","brown","white","yellow","blue","green"}
 word=random.sample(words,1)[0]
 #randomly pick some color words and take the first one out of them
 x=list(itertools.permutations(word))
+
 #rearrange the letters of the word picked fromm words
 str1=''.join(x[1])
 #use join to connect the all letters from list which contains one word without space or other things
