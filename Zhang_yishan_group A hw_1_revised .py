@@ -78,7 +78,7 @@ def char_freq_table(filepath):
         #print the letter and frequency pair  
     file = open(filepath).read()
     #open a file as only read file
-    return displaycft({letter:file.count(letter) for letter in file})
+    displaycft({letter:file.count(letter) for letter in file})
     #count the letters' frequency in file and write them as letter and corresponding frequency
     #put the "letter" into function displaycft
     #Now, letter and corresponding frequency is set up and next is to sort them from a to z

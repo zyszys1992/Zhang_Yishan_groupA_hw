@@ -207,32 +207,41 @@ print(is_prime(37))
 
 
 '''question 7'''
-#make short lenght letter go first and then long length letter
-list1=['ab','a','b']
-y=['1','2','3']
-t=0
-for i in range(0, len(list1)):
- #for loop to start from the first element to the last    
-    if len(list1[i])<=1:
-        #when the length is shorter or equal to 1
-       y[t]=list1[i]
-       #give the value to the first position of y
-       t=t+1
-    else:
-        y[len(list1)-t-1]=list1[i]
-        #if the length longer than 1, give the value to the last until it 
-        #touches the last one length letter
-print(y)         
+def FizzBuzz(x):
+    #define a function that gives Fizz if it is multiple of 3
+    #and gives Buzz if it is multiple of 5,and gives FizzBuzz when it is multiple of 
+    #3 and 5
+    #parameter x is end number which ends up the whole loop 
+    for i in range(1,(x+1)):
+        #for loop start from 1 to the end number x
+        if i%3==0:
+            #determine if i is multiple of 3
+            print("Fizz")
+        elif i%5==0:
+            #determine if i is multiple of 5
+            print("Buzz")
+            
+        elif i%15==0:
+            #determine if it is multiple of 15
+            print("FizzBuzz")
+        else:
+            print(i)      
        
         
         
 '''question 8'''
 
 
-y=[0]*101#give y 100 spaces
+
 
 def calculation(x,n):
     
+    #define a function calculate f(x) = 3.95x(1 − x) as for loop 
+    #the second calculation of function by pluging the previous answer into the 
+    #function and so on 
+    #parameter: x =the number you enter for calculation
+    #parameter: n = how many times you wanna run this calculation
+    y=[0]*101#give y 100 spaces
     y[0]=3.95*(x-x**2)
     #give y[0] initial value by using x
     for i in range (1,n):
@@ -242,12 +251,6 @@ def calculation(x,n):
         print(y[i])
 
 calculation(0.9,100)
-
-
-
-#citation
-#I did question 1, 2, 4, 5, 7, 8. 
-#3 from Kristen, 6 from Vivi 
 
 
 
