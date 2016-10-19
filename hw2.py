@@ -213,19 +213,18 @@ def FizzBuzz(x):
     #3 and 5
     #parameter x is end number which ends up the whole loop 
     for i in range(1,(x+1)):
+       if i % 5 == 0 and i % 3 == 0:
+           print ("FizzBuzz")
         #for loop start from 1 to the end number x
-        if i%3==0:
+       elif i%3==0:
             #determine if i is multiple of 3
             print("Fizz")
-        elif i%5==0:
+       elif i%5==0:
             #determine if i is multiple of 5
             print("Buzz")
-            
-        elif i%15==0:
-            #determine if it is multiple of 15
-            print("FizzBuzz")
-        else:
-            print(i)      
+       else:
+            print(i)
+       
        
         
         
