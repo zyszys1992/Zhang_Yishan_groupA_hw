@@ -4,7 +4,8 @@ Created on Thu Sep 15 19:12:21 2016
 
 @author: zyszys1992
 """
-
+#you commented on documention of 8 and said question 7 need to be changed.
+#I added some documentation and changed question 7.
 '''question 1 '''
 
 def Fibonacci_sequence(a):
@@ -255,10 +256,11 @@ def sort_list(strings):
     print(strings)
     
 # check
-strings = ['banana','watermelon','orange','juice','coconut','pear','peach']            
+strings = ['banana','watermelon','orange','juice','coconut','pear1','peach2']            
 sort_list(strings)  
        
-       
+
+                
         
         
 '''question 8'''
