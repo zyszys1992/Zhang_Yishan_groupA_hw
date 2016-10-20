@@ -14,7 +14,7 @@ def parlindrome(something):
     punctuations='''!()-[]{};:'"\,<>./?@#$%^&*_~ '''# Define what punctions constain
     no_punct=""# define nonpunctions as no_punct with initial value 
 
-    something = input("Enter text: ") #delete all punctutaions and connect them
+     #delete all punctutaions and connect them
     for char in something:
         if char not in punctuations:
             no_punct = no_punct + char#delete all punctutaions and connect them
@@ -96,7 +96,7 @@ import os, time #import os and time
 def speak_icao(string):
 
     punctuations='''!()-[]{};:'"\,<>./?@#$%^&*_~ '''#set punctions 
-    string=input("Enter text=  ")
+    
     d = {'a':'alfa', 'b':'bravo', 'c':'charlie', 'd':'delta', 'e':'echo', 
 	 'f':'foxtrot', 'g':'golf', 'h':'hotel', 'i':'india', 'j':'juliett', 
 	 'k':'kilo', 'l':'lima', 'm':'mike', 'n':'november', 'o':'oscar', 
